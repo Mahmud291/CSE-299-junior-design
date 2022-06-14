@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html LANG="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"> content ="IE=edge">
+    <meta name="viewport" content="width-device-width",initial-scale-1.0>
+    <title>
+
+    </title>
+</head>
+    <body>
+<form method="POST" action="/emp">
+    {% csrf_token %}
+    <>
+        <br>
+        <p>
+            <h3>enter</h3>
+
+        </p>
+    <div>
+<p>Course Code:</p>{{<form.ecode}}
+    </div>
+      <div>
+<p> Course des:</p>{{<form.edes}}
+    </div>
+      <div>
+<p>Course sec:</p>{{<form.esec}}
+    </div>
+      <div>
+<p>Course se:</p>{{<form.se}}
+    </div>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>
+</body>
+
+</html>
